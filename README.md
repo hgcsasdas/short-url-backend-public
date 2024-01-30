@@ -13,8 +13,8 @@
 > 💡 **Tip:** Asegúrate de configurar la clave secreta para la encriptación AES y el algoritmo en tu aplicación. Puedes hacerlo en el archivo `application.properties` o mediante variables de entorno.
 
 # application.properties
-clave.secreta=TuClaveSecreta
-algoritmo=AES/CBC/PKCS5Padding
+1. clave.secreta=TuClaveSecreta
+2. algoritmo=AES/CBC/PKCS5Padding
 
 
 ## 🚀 Uso
@@ -32,10 +32,10 @@ O mediante un IDE como IntelliJ o Eclipse.
 Realiza solicitudes HTTP a las rutas mencionadas anteriormente utilizando herramientas como cURL, Postman o desde tu aplicación frontend.
 
 ## 📦 Dependencias
-Java 11
-Spring Boot
-Base de datos (configurada en application.properties)
-Google ZXing para la generación de códigos QR
+1. Java 11
+2. Spring Boot
+3. Base de datos (configurada en application.properties)
+4. Google ZXing para la generación de códigos QR
 
 ## 🤝 Contribuir
 ¡Siéntete libre de contribuir a este proyecto! Abre un problema o envía una solicitud de extracción con tus mejoras.
