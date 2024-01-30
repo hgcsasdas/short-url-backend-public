@@ -12,7 +12,6 @@
 
 > 💡 **Tip:** Asegúrate de configurar la clave secreta para la encriptación AES y el algoritmo en tu aplicación. Puedes hacerlo en el archivo `application.properties` o mediante variables de entorno.
 
-```properties
 # application.properties
 clave.secreta=TuClaveSecreta
 algoritmo=AES/CBC/PKCS5Padding
